@@ -1,0 +1,21 @@
+{
+    "name": "codexsun/cms",
+    "require": {
+        "illuminate/database": "^12.40",
+        "illuminate/events": "^12.40",
+        "illuminate/http": "^12.40",
+        "illuminate/routing": "^12.40",
+        "illuminate/view": "^12.40",
+        "vlucas/phpdotenv": "^5.6"
+    },
+  "autoload": {
+    "psr-4": {
+      "Core\\": "core/",
+      "Database\\Factories\\": "database/factories/",
+      "Database\\Seeders\\": "database/seeders/"
+    },
+    "files": [
+      "core/Support/helpers.php"
+    ]
+  }
+}
